@@ -14,7 +14,7 @@ const Hero = () => {
     I design.
   </text>
 </svg>  
-<div className=''><h6 className=' font-light text-lg'>By Gayathri Thejus</h6></div>
+<div className=''><h6 className=' font-light text-lg mx-auto'>By Gayathri Thejus</h6></div>
        </div>
       )
     }
