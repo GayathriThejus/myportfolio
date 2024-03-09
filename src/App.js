@@ -1,5 +1,9 @@
+import Aboutme from "./components/Aboutme";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
+// import Navbar from "./components/Navbar";
+
 
 
 
@@ -7,8 +11,11 @@ function App() {
   return (
     <div className="App">
    
-   <Navbar/>
+   {/* <Navbar/> */}
    <Hero/>
+   <Aboutme/>
+   <Projects/>
+    <Experience/>
     </div>
   );
 }
