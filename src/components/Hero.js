@@ -1,6 +1,8 @@
 import React from 'react'
 import img from "../assets/video-calling.png"
 import '../components/Hero.css'
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 const Hero = () => {
   return (
     <div className='text-black' >
@@ -11,6 +13,9 @@ const Hero = () => {
             <div>
             <img className=' mx-auto pt-9 h-[340px]'  src={img}/>
             </div>
+            <div className='flex justify-center gap-4 mx-auto mt-[30px] bg-white items-center w-[150px] h-[40px] py-3 rounded-xl mb-[50px]'>
+           <FaGithub className='w-[30px] h-[30px]'/>
+           <FaLinkedin className='w-[30px] h-[30px]'/></div>
         </div>
     </div>
   )

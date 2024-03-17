@@ -2,6 +2,7 @@ import Aboutme from "./components/Aboutme";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+
 import Projects from "./components/Projects";
 // import Navbar from "./components/Navbar";
 
@@ -14,9 +15,10 @@ function App() {
    
    {/* <Navbar/> */}
    <Hero/>
+ 
    <Aboutme/>
+   <Experience/>
    <Projects/>
-    <Experience/>
     <Footer/>
     </div>
   );
