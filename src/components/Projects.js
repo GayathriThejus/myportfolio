@@ -14,12 +14,12 @@ const Projects = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-4 gap-8'>
         <div className='w-[90%] mx-auto shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
         <img className='w-20 mx-auto mt-[-3rem] w-[250px] h-[160px]'src={data} alt='/'/>
-        <h2 className='text-2xl font-bold text-center py-8'>Finance</h2>
+        <h2 className='text-2xl font-bold text-center py-8'>Grow with Data</h2>
         <div className=' font-sm'>
-          <p className='text-gray-600 mx-8 '>Expense Tracker is a an expense & income tracker showing transaction histories and add on transaction features.</p>
+          <p className='text-gray-600 mx-8 '>A frontend website to show data analytics for various platforms. </p>
         </div>
         <button onClick={()=>handleClick("https://dataweb-sand.vercel.app/")} className='bg-rose-100 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black'>Demo</button>
-        <button onClick={()=>handleClick("https://dataweb-sand.vercel.app/")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
+        <button onClick={()=>handleClick("https://github.com/GayathriThejus/dataweb")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
         </div>
 
         <div className='w-[90%] mx-auto shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
@@ -29,7 +29,7 @@ const Projects = () => {
           <p className='text-gray-600 mx-8 '>Expense Tracker is a an expense & income tracker showing transaction histories and add on transaction features.</p>
         </div>
         <button onClick={()=>handleClick("https://expensetracker-lilac-eta.vercel.app/")} className='bg-rose-100 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black' >Check out</button>
-        <button onClick={()=>handleClick("https://dataweb-sand.vercel.app/")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
+        <button onClick={()=>handleClick("https://github.com/GayathriThejus/Expensetracker")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
         </div>
 
         <div className='w-[90%] mx-auto shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
@@ -39,7 +39,7 @@ const Projects = () => {
           <p className='text-gray-600 mx-8 '>A dApp that decentralizes the procedure of acquiring BAR Council licenses through on-chain relaying .</p>
         </div>
         <button onClick={()=>handleClick("https://github.com/GayathriThejus/Decentra-Law")} className='bg-rose-100 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black'>Check out</button>
-        <button onClick={()=>handleClick("https://dataweb-sand.vercel.app/")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
+        <button onClick={()=>handleClick("https://github.com/GayathriThejus/Decentra-Law")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
         </div>
 
         <div className='w-[90%] mx-auto shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
@@ -49,7 +49,7 @@ const Projects = () => {
           <p className='text-gray-600 mx-8 py-3 '>Website for IPL 3.0 by IEDC (Innovation & Entrepreneurship Development Centre) Kerala.</p>
         </div>
         <button onClick={()=>handleClick("https://ipl-final-git-newbranch-gayathri-thejus-projects.vercel.app/")}  className='bg-rose-100 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black'>Check out</button>
-        <button onClick={()=>handleClick("https://dataweb-sand.vercel.app/")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
+        <button onClick={()=>handleClick("https://github.com/GayathriThejus/ipl_final")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
         </div>
             
         
