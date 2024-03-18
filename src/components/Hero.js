@@ -14,8 +14,14 @@ const Hero = () => {
             <img className=' mx-auto pt-9 h-[340px]'  src={img}/>
             </div>
             <div className='flex justify-center gap-4 mx-auto mt-[30px] bg-white items-center w-[150px] h-[40px] py-3 rounded-xl mb-[50px]'>
-           <FaGithub className='w-[30px] h-[30px]'/>
-           <FaLinkedin className='w-[30px] h-[30px]'/></div>
+            <a href="https://github.com/GayathriThejus" target="_blank" rel="noopener noreferrer">
+        <FaGithub className='w-[30px] h-[30px]' />
+            </a>
+           {/* <FaGithub className='w-[30px] h-[30px]'/> */}
+           <a href="https://www.linkedin.com/in/gayathri-thejus-59503a251/" target="_blank" rel="noopener noreferrer">
+           <FaLinkedin className='w-[30px] h-[30px]'/>
+           </a>
+           </div>
         </div>
     </div>
   )

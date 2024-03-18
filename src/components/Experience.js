@@ -3,8 +3,8 @@ import th from "../assets/th.png"
 const Experience = () => {
   return (
   <div className='pb-14 bg-white' >
-    <h1 className='font-bold text-3xl md:text-5xl py-3 dm mx-auto text-rose-900 ml-6 pt-[60px] text-center pb-4  '>experiences. </h1>
-    <div class="flex h-screen items-center justify-center  px-6 md:px-60 mt-[100px]">
+    <h1 className='font-bold text-3xl md:text-5xl py-3 dm mx-auto text-rose-900 ml-6 pt-[60px] text-center   '>experiences. </h1>
+    <div class="flex h-screen items-center justify-center  px-6 md:px-60 mt-[50px]">
     <div class="space-y-6 border-l-2 border-dashed">
       <div class="relative w-full">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="absolute -top-0.5 z-10 -ml-3.5 h-7 w-7 rounded-full text-rose-900">
