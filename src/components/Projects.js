@@ -49,7 +49,7 @@ const Projects = () => {
           <p className='text-gray-600 mx-8 py-3 '>Website for IPL 3.0 by IEDC (Innovation & Entrepreneurship Development Centre) Kerala.</p>
         </div>
         <button onClick={()=>handleClick("https://ipl-final-git-newbranch-gayathri-thejus-projects.vercel.app/")}  className='bg-rose-100 w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3 text-black'>Check out</button>
-        <button onClick={()=>handleClick("https://github.com/GayathriThejus/ipl_final")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
+        <button onClick={()=>handleClick("https://github.com/GayathriThejus/IPL_IEDC")} className='border border-rose-200 w-[200px] rounded-md font-medium my-1 mx-auto px-6 py-3 text-black'>Github link</button>
         </div>
             
         
