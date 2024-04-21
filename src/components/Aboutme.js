@@ -31,7 +31,7 @@ const Aboutme = () => {
               whileInView={'show'}
               viewport={{once:true,amount:0.7}}>
       <div className='rounded-xl bg-gray-100 p-7 shadow-xl '>
-            <p className='quicksand text-rose-800 text-[17px] md:text-[20px]'> I have soft skill experiences in ReactJS, Python Fast API, Tailwind CSS, Django, HTML5, CSS, Javascript & have experience in programming languages 
+            <p className='quicksand text-rose-800 text-[17px] md:text-[20px]'> I have experiences in ReactJS, Python Fast API, Tailwind CSS, Django, HTML5, CSS, Javascript & have experience in programming languages 
             like C, Java, Python & SQL.
              <br/><br/>
             </p>

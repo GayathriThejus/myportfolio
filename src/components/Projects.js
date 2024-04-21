@@ -10,6 +10,7 @@ const Projects = () => {
   const handleClick = (link) => {
     window.open(link, "_blank");
   };
+  
   return (
     <div className='w-full py-[5rem] bg-white '>
       <h1 className='font-bold text-4xl md:text-5xl py-3 dm mx-auto text-rose-900 text-center mb-[80px]'>projects.</h1>
